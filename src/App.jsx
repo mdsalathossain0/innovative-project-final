@@ -5,6 +5,7 @@ import Gallary from './layouts/Gallary'
 import Choose from './layouts/Choose'
 import Support from './layouts/Support'
 import Impact from './layouts/Impact'
+import Plan from './layouts/Plan'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
 <Choose/>
 <Support/>
 <Impact/>
+<Plan/>
  
 </div>
 

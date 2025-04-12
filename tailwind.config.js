@@ -19,6 +19,7 @@ export default {
       fontFamily: {
         'san': ['Open Sans'],
         'paprika': ['Paprika'],
+        'nunito': ['Nunito'],
       },
       maxWidth: {
         'container': '1170px',
