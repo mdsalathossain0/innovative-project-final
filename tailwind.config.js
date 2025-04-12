@@ -20,6 +20,7 @@ export default {
         'san': ['Open Sans'],
         'paprika': ['Paprika'],
         'nunito': ['Nunito'],
+        'quicksand': ['Quicksand'],
       },
       maxWidth: {
         'container': '1170px',

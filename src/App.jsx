@@ -7,6 +7,7 @@ import Support from './layouts/Support'
 import Impact from './layouts/Impact'
 import Plan from './layouts/Plan'
 import Aboutus from './layouts/Aboutus'
+import Like from './layouts/Like'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
 <Impact/>
 <Plan/>
 <Aboutus/>
+<Like/>
  
 </div>
 
