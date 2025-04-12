@@ -6,6 +6,7 @@ import Choose from './layouts/Choose'
 import Support from './layouts/Support'
 import Impact from './layouts/Impact'
 import Plan from './layouts/Plan'
+import Aboutus from './layouts/Aboutus'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
 <Support/>
 <Impact/>
 <Plan/>
+<Aboutus/>
  
 </div>
 
