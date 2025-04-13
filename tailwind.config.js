@@ -15,6 +15,7 @@ export default {
         'fourth': '#1BBF00',
         'fifth': '#FAFAFE',
         'sixth': '#E6E5F3',
+        'seventh': '#48409C',
       },
       fontFamily: {
         'san': ['Open Sans'],

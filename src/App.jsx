@@ -8,6 +8,7 @@ import Impact from './layouts/Impact'
 import Plan from './layouts/Plan'
 import Aboutus from './layouts/Aboutus'
 import Like from './layouts/Like'
+import Footer from './layouts/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
 <Plan/>
 <Aboutus/>
 <Like/>
+<Footer/>
  
 </div>
 

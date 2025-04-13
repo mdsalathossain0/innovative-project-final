@@ -10,7 +10,7 @@ import SupportCardEffect from './SupportCardEffect'
 const LikeCard = ({text}) => {
   return (
   
-    <>
+   
       <Flex>
         <div className='w-6/12'>
         <div className='w-[380px] h-[220px] mx-auto rounded-20'>
@@ -29,7 +29,6 @@ const LikeCard = ({text}) => {
         <SupportCardEffect className='-top-[3px] -right-2 '/>
         </div>
     </Flex>
-    </>
   )
 }
 
