@@ -8,6 +8,7 @@ import Button from '../components/Button'
 
 import LogoImg from '../assets/mainlogo.png'
 import { FaAngleDown } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -15,31 +16,43 @@ const Nav = () => {
         <Container>
             <Flex className='items-center'>
                 <div className='w-[20%]'>
-                    <Images src={LogoImg} alt='Logo'/>
+                    <Link to='/'><Images src={LogoImg} alt='Logo'/></Link>
                 </div>
                 <div className='w-[60%]'>
                 <Flex className='gap-x-10'> 
                
 
                 
+                <Link to='/'>
                 <Flex className='gap-x-2 items-center'>
                 <List  text='Home' /><FaAngleDown className='text-white text-lg '/>
                 </Flex>
+                </Link>
+                <Link to='/about'>
                 <Flex className='gap-x-2 items-center'>
                 <List text='About'/><FaAngleDown className='text-white text-lg '/>
                 </Flex>
+                </Link>
+                <Link to='/service'>
                 <Flex className='gap-x-2 items-center'>
                 <List text='Service'/><FaAngleDown className='text-white text-lg '/>
                 </Flex>
+                </Link>
+                <Link to='/portfolio'>
                 <Flex className='gap-x-2 items-center'>
                 <List text='Portfolio'/><FaAngleDown className='text-white text-lg '/>
                 </Flex>
+                </Link>
+                <Link to='/price'>
                 <Flex className='gap-x-2 items-center'>
                 <List text='Price'/><FaAngleDown className='text-white text-lg '/>
                 </Flex>
+                </Link>
+                <Link to='/blog'>
                 <Flex className='gap-x-2 items-center'>
                 <List text='Blog'/><FaAngleDown className='text-white text-lg '/>
                 </Flex>
+                </Link>
                 
                
                 </Flex>

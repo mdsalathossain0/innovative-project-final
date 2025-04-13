@@ -1,32 +1,30 @@
 import React from 'react'
-import Nav from './layouts/Nav'
-import Banner from './layouts/Banner'
-import Gallary from './layouts/Gallary'
-import Choose from './layouts/Choose'
-import Support from './layouts/Support'
-import Impact from './layouts/Impact'
-import Plan from './layouts/Plan'
-import Aboutus from './layouts/Aboutus'
-import Like from './layouts/Like'
-import Footer from './layouts/Footer'
+import {createRoutesFromElements, createBrowserRouter, Route,RouterProvider} from "react-router-dom";
+import Home from './pages/Home';
+import About from './pages/About';
+import Service from './pages/Service';
+import Portfolio from './pages/Portfolio';
+import Price from './pages/Price';
+import Blog from './pages/Blog';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/service" element={<Service />}></Route>
+      <Route path="/portfolio" element={<Portfolio />}></Route>
+      <Route path="/price" element={<Price />}></Route>
+      <Route path="/blog" element={<Blog />}></Route>
+    </Route>
+  )
+);
+
 
 const App = () => {
   return (
     
-<div>
-
-<Nav/>
-<Banner/>
-<Gallary/>
-<Choose/>
-<Support/>
-<Impact/>
-<Plan/>
-<Aboutus/>
-<Like/>
-<Footer/>
- 
-</div>
+    <RouterProvider router={router} />
 
   )
 }
