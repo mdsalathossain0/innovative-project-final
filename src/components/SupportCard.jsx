@@ -10,7 +10,7 @@ const SupportCard = ({title,text,image, className}) => {
         <Images clasName='flex justify-center items-center' src={image}/>
         <h4 className='text-[26px] md:text-[30px] text-secondary font-san font-bold pt-8 md:group-hover/one:text-white duration-300'>{title} </h4>
         <SubHeading className='w-[278px] text-center pb-3 md:group-hover/one:text-white duration-300' text={text}/>
-        <SupportCardEffect className='-top-[2px] -right-3'/>
+        <SupportCardEffect className='top-0 -right-3'/>
     </div>
   )
 }
