@@ -14,7 +14,7 @@ const Gallary = () => {
     <div>
         <section className='bg-[#EDE6F7] relative -z-20'>
         <Container>
-            <Flex className='justify-around '>
+            <Flex className='flex-col md:flex-row justify-center items-center md:justify-around pt-[150px] gap-y-5 md:gap-y-0 md:pt-0'>
                 <div className='relative -top-[120px] -z-10'>
                 <Images src={GallaryImg1}/>
                 </div>
@@ -28,7 +28,7 @@ const Gallary = () => {
                 <Images src={GallaryImg4}/>
                 </div>
             </Flex>
-            <Flex className='justify-between pb-[80px]'>
+            <Flex className=' flex-col  sm:flex-wrap md:flex-row md:justify-between pb-[50px] md:pb-[80px]'>
                 <Gallaryinfo heading='53k' text='Happy client'/>
                 <Gallaryinfo heading='10k' text='Projects Done'/>
                 <Gallaryinfo heading='120' text='Gets Award'/>
