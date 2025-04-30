@@ -46,7 +46,11 @@ const Impact = () => {
                 </div>
             </div>
             </Flex>
+            <div class="w-full h-[400px] bg-black ">
+                    <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-[#3B82F6] from-0% to-[#D946EF] to-100%'>Abu Salat Lemon</h1>
+            </div>
         </Container>
+
     </section>
   )
 }

@@ -15,6 +15,8 @@ const ImpactCard = ({title,text,image}) => {
                 <SubHeading className='w-auto md:w-[343px] pt-5' text={text}/>
             </div>
         </Flex>
+
+        
   
   )
 }
