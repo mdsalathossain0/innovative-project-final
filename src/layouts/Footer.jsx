@@ -8,7 +8,7 @@ import FooterList from '../components/FooterList'
 
 const Footer = () => {
   return (
-    <footer className='bg-seventh pt-[80px] md:pt-[130px] pb-14'>
+    <footer className='bg-seventh  pt-[80px] md:pt-[130px] pb-14'>
         <Container>
             <Flex className='flex-col md:flex-row gap-y-10 md:gap-y-0'>
                 <div className='w-auto md:w-5/12'>

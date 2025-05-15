@@ -78,11 +78,11 @@ let handleClick = ()=>{
      {/* Large device End */}
 
     {/*  Mobile device start */}
-    <nav className='lg:hidden bg-[#160c6d80] px-5 py-4 absolute top-0 left-0 w-full'>
+    <nav className='lg:hidden bg-[#160c6d80] px-5 relative'>
     <Container>
-        <Flex className='items-center justify-between'>
+        <Flex className='items-center justify-between py-5'>
             <div >
-                <Link to='/'><Images className='w-[70%]' src={LogoImg} alt='Logo'/></Link>
+                <Link to='/'><Images className='w-[60%]' src={LogoImg} alt='Logo'/></Link>
             </div>
           
            <div onClick={handleClick}>
@@ -94,7 +94,7 @@ let handleClick = ()=>{
         </Flex>
     
        {
-        click &&  <Flex className='gap-y-4 flex-col pt-5 items-center'> 
+        click &&  <Flex className='gap-y-4 flex-col py-5 items-center justify-center bg-purple-500 rounded-20 absolute top-[76px] left-0 w-full'> 
            
         <Link to='/'>
         <Flex className='gap-x-2 items-center'>

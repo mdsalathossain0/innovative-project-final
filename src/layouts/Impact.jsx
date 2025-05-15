@@ -30,25 +30,23 @@ const Impact = () => {
                 <ImpactCard image={ImpactIconTwo} title='Strategy And research' text='Save money and start building your website using the best tools available on the market today.'/>
                 </Flex>
             </div>
-            <div className='w-auto sm:mx-auto pl-[30px] sm:pl-0 md:pl-0  md:w-6/12 pb-[100px]'>
-                <div className='w-[180px] md:w-[227px] h-[273px] rounded-20 relative'>
+            <div className='w-auto sm:mx-auto hidden md:block  sm:pl-0 md:pl-0  md:w-6/12 pb-[100px]'>
+                <div className='w-[150px] md:w-[227px] h-[273px] rounded-20 relative'>
                     <Images className='w-full h-full rounded-20'   src={ImpactimgOne}/>
-                    <div className=' w-[200px] md:w-[310px] h-[264px]  rounded-20 absolute top-[135px] left-[100px] md:left-[150px]'>
+                    <div className='  md:w-[310px] h-[264px]  rounded-20 absolute top-[135px] md:left-[150px]'>
                     <Images className='w-full h-full rounded-20' src={ImpactimgTwo}/>
                     </div>
-                    <div className='w-[120px] md:w-[161px] h-[140px]  rounded-20 absolute -top-5 left-[200px] md:left-[245px]'>
+                    <div className=' md:w-[161px] h-[140px]  rounded-20 absolute -top-5  md:left-[245px]'>
                     <Images className='w-full h-full rounded-20' src={ImpactimgThree}/>
                     </div>
-                    <div className='w-[100px] md:w-[130px] h-[105px]  absolute top-10 -right-[145px] md:-right-[270px]'>
+                    <div className=' md:w-[130px] h-[105px]  absolute top-10  md:-right-[270px]'>
                     <Images className='w-full h-full rounded-20' src={ImpactimgFour}/>
                     </div>
                    
                 </div>
             </div>
             </Flex>
-            <div class="w-full h-[400px] bg-black ">
-                    <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-[#3B82F6] from-0% to-[#D946EF] to-100%'>Abu Salat Lemon</h1>
-            </div>
+
         </Container>
 
     </section>

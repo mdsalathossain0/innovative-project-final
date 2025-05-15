@@ -17,8 +17,8 @@ const LikeCard = ({text}) => {
             <Images className='w-full h-full' src={Likeimg}/>
         </div>
         </div>
-        <div className='w-auto md:w-6/12'>
-        <Flex className='gap-x-3 px-3 justify-center md:justify-start md:px-0 md:gap-x-6'>
+        <div className='w-[350px] mx-auto md:w-6/12'>
+        <Flex className='gap-x-1 px-2 justify-center md:justify-start md:px-0 md:gap-x-6'>
         <LikeList text='News'/>
         <LikeList text='By'/>
         <LikeList text='Tomas Nikelson '/>
